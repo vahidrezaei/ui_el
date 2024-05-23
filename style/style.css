@@ -1,3 +1,10 @@
+@import "font.css";
+@import "khadamat.css";
+
 body{
-  font-size:13px;
+  background: #f1f1f7 !important;
+  font-size: 18px;
+  font-family: nian-r !important;
+  word-spacing: 2px;
 }
+.maxWidth450{max-width: 450px !important;}

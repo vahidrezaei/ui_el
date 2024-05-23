@@ -1,0 +1,58 @@
+.khadamat-img{
+    background: url("../images/mechanic.jpg") no-repeat top center/cover;
+    height: 50vh;
+}
+
+.khadamat-img .khadamat-txt{
+    display: inline-block;
+    color: #fff;
+    font-family: nian-bx;
+    outline: 1px solid #fff;
+    margin-bottom: 70px;
+    padding: 5.5px;
+    padding-bottom: 1px;
+}
+
+.khadamat-img .khadamat-txt .khadamat-color{
+    display: inline-block;
+    background: #e2602b;
+    font-size: 27px;
+    line-height: 20px;
+
+}
+
+.khadamat-items{
+    position: relative;
+    top: -50px;
+  }
+  
+.khadamat-items .k-item{
+    background: #fff;
+    border: 10px solid transparent;
+    border-radius: 15px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+}
+
+.khadamat-items .k-item .img-v{
+    transition: .1s;
+    position: relative;
+    top:0px;
+}
+
+.khadamat-items .k-item .txt{
+    display: block;
+}
+
+.khadamat-items .m-cstm{
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.khadamat-items .k-item:hover{
+    box-shadow: 0 2px 0 0px rgba(0,0,0,0.15);
+}
+
+.khadamat-items .k-item:hover .img-v{top:-3px;}
