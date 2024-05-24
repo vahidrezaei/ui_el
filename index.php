@@ -32,10 +32,10 @@
     </div> <!-- image-khadamat -->
     
     <div class="khadamat-items">
-        <div class="row row-cols-3 m-cstm">
+        <div class="row row-cols-3 m-0">
             <?php foreach($vector as $key => $val) {?>
                 
-				<div class="col p-2">
+				<div class="col p-1 p-sm-2">
                     <a class="k-item overflow-hidden" href="#">
                         <div class="m-1"><img src="images/img/<?= $key ?>.svg" class="img-v w-50" alt=""></div>
                         <span class="txt text-nowrap"><?= $val ?></span>
