@@ -3,25 +3,20 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.6;fill:url(#SVGID_1_);enable-background:new    ;}
-	.st1{fill:url(#SVGID_00000016058978520939943190000006284555258459584168_);}
+	.st0{opacity:0.25;fill:url(#SVGID_1_);enable-background:new    ;}
+	.st1{fill:url(#SVGID_00000036961713544576273170000009321545907141302199_);}
 	.st2{fill:#FFFFFF;}
 </style>
-<radialGradient id="SVGID_1_" cx="30" cy="31.6" r="28.4398" gradientUnits="userSpaceOnUse">
+<radialGradient id="SVGID_1_" cx="30" cy="28.4" r="28.4398" gradientTransform="matrix(1 0 0 -1 0 60)" gradientUnits="userSpaceOnUse">
 	<stop  offset="0" style="stop-color:#4EA5DB"/>
-	<stop  offset="0.119" style="stop-color:#54A8DC;stop-opacity:0.881"/>
-	<stop  offset="0.2752" style="stop-color:#64B0E0;stop-opacity:0.7248"/>
-	<stop  offset="0.4521" style="stop-color:#7FBEE5;stop-opacity:0.5479"/>
-	<stop  offset="0.6443" style="stop-color:#A5D1ED;stop-opacity:0.3557"/>
-	<stop  offset="0.8463" style="stop-color:#D5EAF7;stop-opacity:0.1537"/>
-	<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#4EA5DB;stop-opacity:0"/>
 </radialGradient>
 <circle class="st0" cx="30" cy="31.6" r="28.4"/>
-<linearGradient id="SVGID_00000006688480950227047080000009006814371496550316_" gradientUnits="userSpaceOnUse" x1="16.07" y1="39.03" x2="43.8968" y2="11.2033">
+<linearGradient id="SVGID_00000004527254496504210690000000277427127944643243_" gradientUnits="userSpaceOnUse" x1="16.07" y1="20.97" x2="43.8968" y2="48.7967" gradientTransform="matrix(1 0 0 -1 0 60)">
 	<stop  offset="0" style="stop-color:#8EC8ED"/>
 	<stop  offset="1" style="stop-color:#4CA4DB"/>
 </linearGradient>
-<circle style="fill:url(#SVGID_00000006688480950227047080000009006814371496550316_);" cx="30" cy="25.1" r="19.7"/>
+<circle style="fill:url(#SVGID_00000004527254496504210690000000277427127944643243_);" cx="30" cy="25.1" r="19.7"/>
 <g>
 	<circle class="st2" cx="32.7" cy="15.6" r="2.8"/>
 	<path class="st2" d="M28.7,22.5L28.7,22.5c-0.4-0.2-0.5-0.7-0.3-1.1l1.3-2.3c0.2-0.4,0.7-0.5,1.1-0.3l0,0c0.4,0.2,0.5,0.7,0.3,1.1

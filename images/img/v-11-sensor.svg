@@ -3,26 +3,20 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
 <style type="text/css">
-	.st0{opacity:0.6;fill:url(#SVGID_1_);enable-background:new    ;}
-	.st1{fill:url(#SVGID_00000161633648864701518050000015694471566697511333_);}
+	.st0{opacity:0.3;fill:url(#SVGID_1_);enable-background:new    ;}
+	.st1{fill:url(#SVGID_00000022537312200098995290000004210939213101856641_);}
 	.st2{fill:#FFFFFF;}
 </style>
-<radialGradient id="SVGID_1_" cx="30" cy="31.6" r="28.4398" gradientUnits="userSpaceOnUse">
+<radialGradient id="SVGID_1_" cx="30" cy="28.4" r="28.4398" gradientTransform="matrix(1 0 0 -1 0 60)" gradientUnits="userSpaceOnUse">
 	<stop  offset="0" style="stop-color:#E27839"/>
-	<stop  offset="0.111" style="stop-color:#E37C3F;stop-opacity:0.889"/>
-	<stop  offset="0.2567" style="stop-color:#E5874F;stop-opacity:0.7433"/>
-	<stop  offset="0.4218" style="stop-color:#E99A6A;stop-opacity:0.5782"/>
-	<stop  offset="0.601" style="stop-color:#EFB490;stop-opacity:0.399"/>
-	<stop  offset="0.7917" style="stop-color:#F6D5C1;stop-opacity:0.2083"/>
-	<stop  offset="0.9894" style="stop-color:#FFFDFC;stop-opacity:1.063001e-02"/>
-	<stop  offset="1" style="stop-color:#FFFFFF;stop-opacity:0"/>
+	<stop  offset="1" style="stop-color:#E1773A;stop-opacity:0"/>
 </radialGradient>
 <circle class="st0" cx="30" cy="31.6" r="28.4"/>
-<linearGradient id="SVGID_00000145055423405521004620000016697758833412077476_" gradientUnits="userSpaceOnUse" x1="16.07" y1="39.03" x2="43.8968" y2="11.2033">
+<linearGradient id="SVGID_00000142856986090804527320000014595237240967647878_" gradientUnits="userSpaceOnUse" x1="16.07" y1="20.97" x2="43.8968" y2="48.7967" gradientTransform="matrix(1 0 0 -1 0 60)">
 	<stop  offset="1.065558e-08" style="stop-color:#F1BB23"/>
 	<stop  offset="1" style="stop-color:#E1763A"/>
 </linearGradient>
-<circle style="fill:url(#SVGID_00000145055423405521004620000016697758833412077476_);" cx="30" cy="25.1" r="19.7"/>
+<circle style="fill:url(#SVGID_00000142856986090804527320000014595237240967647878_);" cx="30" cy="25.1" r="19.7"/>
 <g>
 	<path class="st2" d="M37.3,19h-5.9c0.2,0.4,0.4,0.8,0.4,0.9c0,0.2-0.1,0.3-0.2,0.4L30.3,21c0.1,0.3,0.1,0.6,0.1,0.9s0,0.6-0.1,0.9
 		l1.3,0.7c0.1,0.1,0.2,0.2,0.2,0.4c0,0.5-1.2,2.7-1.7,2.7c-0.1,0-0.2,0-0.2-0.1L28.6,26c-0.5,0.4-1,0.7-1.6,0.9v1.4
