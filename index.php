@@ -25,7 +25,7 @@
 </head>
 
 <body>
-
+<?php require "./fun/helper.php"; ?>
     <div class="container">
         <div class="row">
             <div class="col-12 text-center pt-2">
@@ -37,7 +37,10 @@
                         <h5>لیست خدمات</h5>
                         <span>لیست خدمات با عنوان و اصلی و عنوان خدمات با آیکون</span>
                     </a>
-
+                    <a href="./components/post-list-thumbnail.php" class="list-group-item list-group-item-action">
+                        <h5>لیست پست ها</h5>
+                        <span>لیست پستها بصورت کشیده و با عکس بند انگشتی</span>
+                    </a>
                 </div>
             </div>
         </div>
