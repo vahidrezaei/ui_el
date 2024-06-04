@@ -1,0 +1,103 @@
+{
+    "page": 1,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 1,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "جواد",
+            "last_name": "رضوی",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg",
+            "title": "دستاوردهای اصلی",
+            "paragraph": "می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد",
+            "subject": "حال و آینده شناخت فراوان جامعه",
+            "price": "300000",
+            "like": "32",
+            "star": "4"
+        },
+        {
+            "id": 2,
+            "email": "eve.holt@reqres.in",
+            "first_name": "سعید",
+            "last_name": "اکبری",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg",
+            "title": "سوالات پیوسته اهل دنیای موجود",
+            "paragraph": "ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.",
+            "subject": "طراحان خلاقی و فرهنگ پیشرو در زبان فارسی",
+            "price": "200000",
+            "like": "10",
+            "star": "5"
+        },
+        {
+            "id": 3,
+            "email": "charles.morris@reqres.in",
+            "first_name": "علی",
+            "last_name": "رسولی",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg",
+            "title": "تکنولوژی مورد نیاز و کاربردی",
+            "paragraph": "کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد",
+            "subject": "روزنامه و مجله در ستون و سطرآنچنان که لازم است",
+            "price": "850000",
+            "like": "10",
+            "star": "3"
+        },
+        {
+            "id": 4,
+            "email": "george.bluth@reqres.in",
+            "first_name": "محمد",
+            "last_name": "ابراهیمی",
+            "avatar": "https://reqres.in/img/faces/1-image.jpg",
+            "title": "شرایط فعلی تکنولوژی مورد نیاز",
+            "paragraph": "چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد",
+            "subject": "چاپگرها و متون بلکه روزنامه و مجله در ستون",
+            "price": "650000",
+            "like": "89",
+            "star": "2"
+        },
+        {
+            "id": 5,
+            "email": "eve.holt@reqres.in",
+            "first_name": "سعید",
+            "last_name": "اکبری",
+            "avatar": "https://reqres.in/img/faces/4-image.jpg",
+            "title": "سوالات پیوسته اهل دنیای موجود",
+            "paragraph": "ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.",
+            "subject": "زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی",
+            "price": "450000",
+            "like": "97",
+            "star": "1"
+        },
+        {
+            "id": 6,
+            "email": "charles.morris@reqres.in",
+            "first_name": "علی",
+            "last_name": "رسولی",
+            "avatar": "https://reqres.in/img/faces/5-image.jpg",
+            "title": "تکنولوژی مورد نیاز و کاربردی",
+            "paragraph": "کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد",
+            "subject": "طراحان خلاقی و فرهنگ پیشرو در زبان فارسی",
+            "price": "150000",
+            "like": "14",
+            "star": "4"
+        },
+        {
+            "id": 7,
+            "email": "tracey.ramos@reqres.in",
+            "first_name": "جواد",
+            "last_name": "رضوی",
+            "avatar": "https://reqres.in/img/faces/6-image.jpg",
+            "title": "دستاوردهای اصلی",
+            "paragraph": "می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد",
+            "subject": "دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود",
+            "price": "250000",
+            "like": "36",
+            "star": "5"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
