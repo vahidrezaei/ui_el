@@ -29,9 +29,14 @@
         </div>
         <div class="txt-content overflow-hidden">
             <h6 class="txt-head text-nowrap"><?=$item->title;?></h6>
-            <p class="txt-detail text-nowrap m-0"><?=$item->subject;?></p>
+            <p class="txt-detail text-nowrap mb-2"><?=$item->subject;?></p>
+            <div class="text-span d-inline text-nowrap border rounded px-1">
+                <span><?=$item->star;?> <?= $list->logo[0]->svg; ?></span>
+                <span><?=$item->like;?> <?= $list->logo[1]->svg; ?></span>
+                <span><?=$item->price;?> <?= $list->logo[3]->svg; ?></span>
+            </div>
         </div>
-    </a> <!--thumbnail-list-->
+    </a> <!--thumbnail-list-N2-->
     <?php } ?>
 
 </div> <!-- container -->

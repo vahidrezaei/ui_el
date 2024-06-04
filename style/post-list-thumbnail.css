@@ -30,3 +30,14 @@
 .thumbnail-list .txt-content .txt-detail{
     color: #8f8f8f;
 }
+
+.thumbnail-list .txt-content .text-span{
+    line-height: 5px !important;
+}
+
+.thumbnail-list .txt-content .text-span span{
+    padding-right: 15px;
+}
+.thumbnail-list .txt-content .text-span span:first-child{
+    padding: 0;
+}
