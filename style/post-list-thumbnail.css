@@ -1,0 +1,43 @@
+.thumbnail-list:hover{
+    box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.1);
+    transition: 0.1s;
+}
+.thumbnail-list:last-child{
+    margin-bottom: 0 !important;
+}
+.thumbnail-list:hover .txt-content .txt-head{
+    padding-right: 5px;
+}
+
+.thumbnail-list .thumbnail{
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    min-height: 100px;
+    border-radius: 13px;
+    background: url("../images/img/no-image.svg") no-repeat center;
+}
+
+.thumbnail-list .txt-content{
+    border: 10px solid transparent;
+}
+
+.thumbnail-list .txt-content .txt-head{
+    transition: 0.1s;
+    font-family: nian-bx, serif;
+}
+
+.thumbnail-list .txt-content .txt-detail{
+    color: #8f8f8f;
+}
+
+.thumbnail-list .txt-content .text-span{
+    line-height: 5px !important;
+}
+
+.thumbnail-list .txt-content .text-span span{
+    padding-right: 15px;
+}
+.thumbnail-list .txt-content .text-span span:first-child{
+    padding: 0;
+}
