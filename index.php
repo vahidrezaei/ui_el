@@ -22,7 +22,7 @@
         font-size: 13px;
     }
     </style>
-    <title>Component List</title>
+    <title>Component List v2</title>
 </head>
 
 <body>
