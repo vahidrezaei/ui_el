@@ -1,0 +1,25 @@
+.iconHomeCstm{
+    background: url("../images/icons/icon-home.svg") no-repeat center;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    padding-top: 10px;
+}
+
+.menuTop{
+    background: #cc9a72;
+    font-size: 15px;
+}
+
+.menuTop .nav-link{
+    color: #fff;
+    padding: 10px 7px;
+}
+
+.menuTop .nav-link .leftCstm{
+    padding-right: 10px;
+}
+
+.menuTop .nav-item:last-child .nav-link .leftCstm{
+    display: none;
+}

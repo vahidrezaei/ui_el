@@ -1,0 +1,49 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.swiper-button-next{left: 0px !important;}
+.swiper-button-prev{right: 0px !important;}
+.swiper-button-next::after, .swiper-button-prev::after{
+    font-size: 15px !important;
+}
+
+#topSlider .swiper-pagination{
+    text-align: left;
+    margin-left: 15px;
+}
+
+.swiper-slide .title {
+    font-size: 41px;
+    font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+    font-size: 21px;
+}
+
+.swiper-slide .text {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+}
+
+.mySwiper3 {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.slideNew {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    height: calc((100% - 30px) / 2) !important;
+}

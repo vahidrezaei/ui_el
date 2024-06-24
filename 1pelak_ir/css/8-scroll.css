@@ -1,0 +1,30 @@
+.scrollCstm1{
+    overflow-x:scroll;
+}
+
+.scrollCstm1 .minWidth{
+    min-width: 1080px;
+}
+
+.scrollCstm1::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+}
+  
+.scrollCstm1::-webkit-scrollbar-track {
+    background: transparent; 
+}
+
+.scrollCstm1::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0, 0.2)
+}
+
+.scrollCstm1::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0, 0.5) 
+}
+
+.scrollCstm1{
+    scrollbar-color: rgb(0, 0, 0, 0.5) transparent;
+    scrollbar-width: thin;
+}

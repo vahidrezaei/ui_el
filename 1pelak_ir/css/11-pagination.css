@@ -1,0 +1,36 @@
+body .paginationCstm .page-item .page-link{
+    background: #f6f6f6;
+    color: #6d6d6d;
+    border-radius: 10px;
+    padding: 0px;
+    width: 35px;
+    height: 35px;
+    transition: 0.3s;
+}
+
+body .paginationCstm .page-item:last-child .page-link,
+body .paginationCstm .page-item:first-child .page-link{
+    background: none;
+    color: #868686;
+    font-size: 15px;
+}
+
+body .paginationCstm .page-item .page-link:hover{
+    background-color: #e7e7e7;;
+}
+
+body .paginationCstm .page-item.active .page-link{
+    background: #cc9a72;
+    color: #fff;
+    box-shadow: 0px 5px 15px rgb(204, 154, 114 , 0.45);
+}
+
+body .paginationCstm .page-item.active .page-link:focus{
+    background: #be8e66;
+    box-shadow: 0 0 0 3.5px rgb(204, 154, 114 , 0.45);
+}
+
+body .paginationCstm .page-item .page-link:focus{
+    box-shadow: 0 0 0 3.5px rgba(0, 0, 0, 0.1);
+    background: #fff;
+}

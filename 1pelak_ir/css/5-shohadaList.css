@@ -1,0 +1,35 @@
+#topPage .cityImage{
+    position: relative;
+}
+
+#topPage .cityImage .imageShakhes{
+    background: #888;
+    box-shadow: 0 0 0 3px #fff;
+    border-radius: 15px;
+    width: 114px;
+    height: 106px;
+    display: inline-block;
+    position: absolute;
+    bottom: 7%;
+    left: 20%;
+}
+
+body .cardShahids .cardShahid .card{
+    box-shadow: 0 0 23px rgba(0,0,0,.059);
+}
+
+body .cardShahids .zendLink{
+    font-size: 15px;
+    color: #cf830b;
+    border-top: 1px solid #f2f1f1;
+    padding: 12px 3px 0 0px;
+}
+
+body .cardShahids .zendLink i{
+    font-size: 10px;
+}
+
+body .cardShahids .shahidImg{
+    border: 4px solid #dedede;
+    margin-bottom: 20px;
+}

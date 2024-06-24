@@ -1,0 +1,12 @@
+@import "font.css";
+@import "post-list-thumbnail.css";
+body {
+    background: #f1f1f7 !important;
+    font-size: 18px;
+    font-family: nian-r !important;
+    word-spacing: 2px;
+}
+
+.maxWidth450 {
+    max-width: 450px !important;
+}

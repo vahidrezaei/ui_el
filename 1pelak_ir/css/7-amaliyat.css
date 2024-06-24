@@ -1,0 +1,39 @@
+.AmaliyatList .postAmaliyat a{
+    text-decoration: none;
+    color: #000;   
+}
+
+.AmaliyatList .postAmaliyat a .footerPost i,
+.AmaliyatList .postAmaliyat a .footerPost,
+.AmaliyatList .postAmaliyat a img.img{
+    transition: 0.3s;
+}
+
+.AmaliyatList .postAmaliyat .footerPost{
+    font-size: 15px;
+    color: #ababab;
+    border-top: 1px solid #f2f1f1;
+    padding: 12px 3px 0 0px;
+}
+
+.AmaliyatList .postAmaliyat a img.img{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.AmaliyatList .postAmaliyat .footerPost i{
+    color: #999999;
+    font-size: 10px;
+}
+
+.AmaliyatList .postAmaliyat a:hover img.img{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+.AmaliyatList .postAmaliyat a:hover .footerPost i{
+    color: #cf830b;
+}
+.AmaliyatList .postAmaliyat a:hover .footerPost{
+    color: #b05811;
+}

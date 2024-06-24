@@ -1,0 +1,114 @@
+nav.navbar .offcanvas.offcanvas-end{
+    transition: 0.23s;
+    left:0;
+    direction: ltr;
+    padding:0px 3px;
+    background: rgb(255,255,255);
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    margin:0;
+    border-top:3px solid #cc9a72;
+}
+
+nav.navbar .offcanvas .offcanvas-body ul{
+    direction: rtl;
+    padding: 0;
+    margin-left: 10px;
+}
+
+nav.navbar .offcanvas .offcanvas-body ul li:last-child{
+    padding-right: 30px !important;
+}
+
+nav.navbar{ padding:0; font-family: nian-b; font-size:17px;}
+
+.offcanvas-backdrop.fade{
+    background: none;
+}
+
+nav.navbar .container-fluid .menuMob{
+    display: none;
+}
+
+nav.navbar .container-fluid a{
+    transition: 0.3s !important;
+    margin: 0 5px;
+    padding: 32px 10px;
+    color: #a2a2a2 !important;
+}
+
+nav.navbar .container-fluid a.active{
+    color: #000 !important;
+}
+
+nav.navbar .container-fluid a:hover{
+    color: black !important;
+}
+
+nav.navbar .container-fluid a span.lines{
+    display: block;
+    width: 0%;
+    height: 2.5px !important;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav.navbar .container-fluid a:hover span.lines{
+    width: 70%;
+    background: #000;
+}
+
+nav.navbar .container-fluid a.navbar-brand{
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+nav.navbar .container-fluid .menuMob .openSearch,
+nav.navbar .container-fluid .offcanvas .inputCstm button{
+    background: #424242;
+    color: #fff;
+    border-radius: 10px;
+    top:3px;
+    left: 3px;
+    z-index: 3;
+    padding: 0;
+    width: 45px;
+    height: 45px;
+    padding-top: 3px;
+}
+
+nav.navbar .container-fluid .menuMob .openSearch{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+nav.navbar .container-fluid .offcanvas .inputCstm button{color:#fff;}
+
+.dropSearch .inputCstm{
+    background:#f9f9f9;
+    border-radius: 50px !important;
+    border: 0;
+    padding: 7px 20px 7px 50px;
+}
+
+.dropSearch .inputCstm + button{
+    border-radius: 50px !important;
+    position: absolute;
+    top:3px;
+    left: 3px;
+    z-index: 3;
+    padding: 5px 15px 0px 15px;
+}
+.dropSearch .inputCstm + button i{color:#b9b9b9;}
+.dropSearch .inputCstm + button:focus i{color:#000;}
+
+.dropSearch .inputCstm:focus{
+    box-shadow: 0px 0px 0px 4px rgba(0,0,0,.1);
+}
+
+nav.navbar .yekPelak{
+    background: url("../images/icons/1pelak-icon.svg") no-repeat center;
+    width: 100px;
+}

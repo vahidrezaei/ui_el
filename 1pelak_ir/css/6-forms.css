@@ -1,0 +1,36 @@
+.inptCstm{
+    border: none;
+    border-radius: 10px !important;
+}
+
+.inptLight{
+    background: #f9f9f9;
+}
+
+.inptLight:focus{
+    box-shadow: 0 0 0 3.7px rgba(0, 0, 0, 0.08);
+}
+
+.inptBrown{
+    background: #cc9a72;
+    color: #fff;;
+    box-shadow: 0 7px 17px rgb(204, 154, 114, 0.45);
+}
+
+.inptBrown:hover{
+    background: #a77a56;
+    color: #fff;
+}
+
+.inptBrown:focus{
+    background: #a77a56;
+    box-shadow: 0 0 0 3.7px rgb(204, 154, 114, 0.45);
+}
+
+.sabtKhatere label{
+    font-size: 15px;
+}
+
+.sabtKhatere label i.fa-exclamation-triangle{
+    margin-left: 10px;
+}
