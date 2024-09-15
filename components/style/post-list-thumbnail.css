@@ -25,6 +25,7 @@
 .thumbnail-list .txt-content .txt-head{
     transition: 0.1s;
     font-family: nian-bx, serif;
+    letter-spacing: 0.3px;
 }
 
 .thumbnail-list .txt-content .txt-detail{

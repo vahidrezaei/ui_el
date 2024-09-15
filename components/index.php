@@ -46,6 +46,10 @@
                         <h5>لیست پست ها شماره 2</h5>
                         <span>لیست پستها بصورت کشیده و با عکس بند انگشتی و قیمت ...</span>
                     </a>
+                    <a href="./components/post-list-thumbnail-n3.php" class="list-group-item list-group-item-action">
+                        <h5>لیست پست ها شماره 3</h5>
+                        <span>لیست پستها بصورت کشیده و با عکس بند انگشتی دایره ای و قیمت ...</span>
+                    </a>
                 </div>
             </div>
         </div>
