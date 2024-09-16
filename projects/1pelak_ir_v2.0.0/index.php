@@ -37,7 +37,7 @@
     <a href="#" class="thumbnail-list n3 list-group-item d-flex align-items-center rounded-4 p-1 mb-3">
         <div class="thumbnail overflow-hidden rounded-circle">
             <div class="arrowLink rounded-circle">
-                <svg aria-hidden="true" focusable="false" data-prefix="fa-solid" data-icon="angle-left" class="svg-inline--fa fa-angle-left fa-w-8" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><path d="M192 448c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L77.25 256l137.4 137.4c12.5 12.5 12.5 32.75 0 45.25C208.4 444.9 200.2 448 192 448z" fill="currentColor"/></svg>
+                <i class="arrow-animate"></i>
             </div>
             <?php if($item->id !== 1) { ?>
             <img src="<?=$item->avatar;?>" class="w-100 h-100 rounded-circle" alt="">

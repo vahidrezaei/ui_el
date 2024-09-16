@@ -19,19 +19,21 @@
     top: 50%;
     left:0;
     transform: translate(15px, -50%);
-    background: #fff6e5;
+    background: #fff;
     width: 35px;
     height: 35px;
     opacity: 0;
     transition: 0.1s;
 }
-.thumbnail-list.n3 .thumbnail .arrowLink svg{
-    color: rgba(117, 94, 48, 0.56);
+.thumbnail-list.n3 .thumbnail .arrowLink .arrow-animate{
+    background: url("../images/icons/arrow-Animate.svg") no-repeat center;
+    opacity: 0.7;
     position: absolute;
     top: 50%;
     left:50%;
     transform: translate(-50%, -50%);
-    width: 7.5px;
+    width: 28px;
+    height: 28px;
 }
 .thumbnail-list.n3:hover .thumbnail .arrowLink {opacity: 1;}
 .thumbnail-list.n3 .txt-content .txt-head span{color: #bfbfbf;}
