@@ -1,16 +1,20 @@
 body {
     color: white;
-    font-family: "Lato";
+    font-family: "damavand";
     font-weight: light;
     display: flex;
-    justify-content: center;
+  flex-direction: column;
+    /*justify-content: center;*/
     align-items: center;
-    width: 100vw;
+  padding-top: 8px;
+    /* width: 100vw; */
     height: 100vh;
     overflow: hidden;
-    background: linear-gradient(150deg, #e6d3f9 0%, #e6d3f9 50%, #cea0f1 50%, #cea0f1 100%);
+    /* background: linear-gradient(150deg, #e6d3f9 0%, #e6d3f9 50%, #cea0f1 50%, #cea0f1 100%); */
+    background-image: url('./images/bg.jpg');
+    background-size: 300px;
   }
-  
+
   .open-walkthrough {
     border: 0;
     background: #5da3f2;
@@ -91,6 +95,9 @@ body {
     order: 3;
   }
   .walkthrough .walkthrough-body .screens {
+    display: flex;
+    justify-content:center;
+
     flex: 1;
     align-self: stretch;
     position: relative;
@@ -110,17 +117,19 @@ body {
     width: 132px;
   }
   .walkthrough .walkthrough-body h3 {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.4em;
-    text-transform: uppercase;
-    letter-spacing: 0.15em;
+    /* text-transform: uppercase; */
+    /* letter-spacing: 0.15em; */
   }
   .walkthrough .walkthrough-body p {
     line-height: 1.6em;
-    font-size: 13px;
+    font-size: 9px;
     margin-top: 16px;
     padding-top: 0;
-    color: rgba(255, 255, 255, 0.8);
+    /* color: rgba(255, 255, 255, 0.8); */
+    font-family: "sans";
+    font-weight: bold;
   }
   .walkthrough .walkthrough-pagination {
     align-items: center;
@@ -223,7 +232,7 @@ body {
     transform: translateY(-30px);
     transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
     width: 132px;
-    left: 48px;
+    left: 24px;
     top: 32px;
   }
   .walkthrough .screens .media.bars .icon {
@@ -334,3 +343,25 @@ body {
   .walkthrough .screens .screen.active .media.comm .status-badge {
     transition-delay: 1.6s;
   }
+  .d-none{
+    display: none !important;
+  }
+
+
+.walkthrough2 {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.23), 0 10px 40px rgba(0, 0, 0, 0.19);
+  background: linear-gradient(to right bottom, #9e66c6, #6027e1);
+  border-radius: 0;
+  flex-direction: column;
+  flex: 0 0 auto;
+  font-size: 14px;
+  height: auto;
+  overflow: hidden;
+  transition: opacity 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: 280px;
+  z-index: 1000;
+
+}
+.d-flex{
+  display: flex !important;
+}

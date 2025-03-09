@@ -1,0 +1,49 @@
+.container .tasks .task{
+    padding: 20px;
+    min-height: 142px;
+    max-height: 142px;
+}
+
+.container .tasks .task .badge{
+    position: absolute;
+    left: 5px;
+    border: 10px solid #fff;
+}
+
+.container .tasks .task .details .price{
+    margin: 0 5px;
+    padding: 0 3px;
+}
+.container .tasks .task .details{
+    color: rgba(0,0,0,0.5);
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.container .tasks .task .details .price:before{content: '/';}
+.container .tasks .task .details .price:after{content: '/';}
+
+.container .tasks .task  .badge-progress{
+    font-size: 13px;
+}
+
+.container .tasks .task .badge-progress span:first-child{color: #249c73}
+.container .tasks .task .badge-progress span:last-child{color: #a3a3a3}
+
+.container .tasks .task .prog{
+    overflow: hidden;
+}
+
+progress {
+    border: none;
+    height: 2px;
+}
+
+progress::-webkit-progress-bar {
+    border-radius: 20px;
+    background-color: #e5e7ea;
+}
+
+progress::-webkit-progress-value {
+    border-radius: 20px;
+    background-color: #23cb92;
+}

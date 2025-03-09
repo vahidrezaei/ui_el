@@ -1,0 +1,65 @@
+.thumbnail-list.n3{background: #fff;}
+.thumbnail-list.n3 .thumbnail{
+    padding: 21px;
+    background: url("../images/noimage/no-image-pelak.svg") no-repeat center;
+    transition: 0.2s;
+}
+
+.thumbnail-list.n3 .thumbnail img{
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+
+.thumbnail-list.n3:hover .thumbnail{
+    background: url("../images/noimage/no-image-pelak-hover.svg") no-repeat center;
+    opacity: 1;
+}
+
+.thumbnail-list.n3 .thumbnail .arrowLink{
+    position: absolute;
+    top: 50%;
+    left:0;
+    transform: translate(15px, -50%);
+    background: #fff6e5;
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    transition: 0.1s;
+}
+.thumbnail-list.n3 .thumbnail .arrowLink svg{
+    color: rgba(117, 94, 48, 0.56);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    width: 7.5px;
+}
+.thumbnail-list.n3:hover .thumbnail .arrowLink {opacity: 1;}
+.thumbnail-list.n3 .txt-content .txt-head span{color: #bfbfbf;}
+.thumbnail-list.n3:hover .txt-content .txt-head span{color: #ed4f4a;}
+.thumbnail-list.n3 .txt-content .text-span span{font-family: nian-b, serif; font-size: 15px;}
+
+.container .icon-search{
+    position: absolute;
+    top: 50%;
+    transform: translate(37px, -100%);
+    width: 30px;
+    height: 15px;
+    background: url("../images/icons/magnifying-glass.svg") no-repeat center;
+    opacity: 0.5;
+}
+
+.title-golestan{
+    background: rgba(234, 115, 28, 0.13);
+    font-family: nian-bx, serif;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 18px 10px
+}
+
+.header-golestan{
+    height: 280px;
+    background: url("../images/golestanShohada.jpg") no-repeat center/cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+}

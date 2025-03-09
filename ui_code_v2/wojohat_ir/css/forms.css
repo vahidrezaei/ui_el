@@ -1,0 +1,91 @@
+.form-cstm select,
+.form-cstm textarea,
+.form-cstm button,
+.form-cstm input{
+    border: none;
+    padding: 12px 15px;
+    border-radius: 15px;
+    /*margin-top: 24px;*/
+}
+
+.form-cstm input[type=file]{
+    background: #f6fafe;
+    border: 3px solid #fff;
+    outline: 2px dashed #cbdfef;
+    color: #4579a2;
+}
+.form-cstm input[type=file]::-webkit-file-upload-button{
+    visibility: hidden;
+}
+
+.form-cstm input[type=file]::before {
+    content: '+';
+    font-family: nian-b;
+    color: #4579a2;
+    font-size: 35px;
+    line-height: 1em;
+}
+
+.form-cstm textarea:focus,
+.form-cstm2 select:focus,
+.form-cstm input:focus{
+    background-color: #fff;
+    box-shadow: 0 0 6px rgba(0,0,0,0.07);
+    outline: 1px solid rgba(0,0,0,0.08);
+}
+
+.form-cstm input[type=file]:hover,
+.form-cstm input[type=file]:focus{
+    background: #eaf1f8;
+    border: 3px solid #fff;
+    outline: 2px dashed #b6ccde;
+}
+
+.form-cstm2 select,
+.form-cstm2 textarea,
+.form-cstm2 input{
+    background-color: rgba(0,0,0,0.03);
+}
+.form-cstm2 select{
+    background-position: left .75rem center;
+}
+.btn-cstm-blue{
+    background: #e5faff;
+    color: #4579a2;
+    font-family: nian-b;
+}
+.btn-cstm-blue:hover{
+    background: #007bff;
+    color: #fff;
+}
+
+.btn-cstm-blue:active{
+    background: #0068d9 !important;
+    color: #fff !important;
+}
+
+.list-cstm .list-group-item{
+    border-color: rgba(0,0,0,0.03);
+    padding: 10px 0;
+}
+.list-cstm .list-group-item span:first-child{
+    font-family: nian-b;
+    margin-left: 5px;
+}
+
+.btn.cstm-primary{background: #e5faff;color: #345f80;border-radius: 15px !important; font-family: nian-b; border:none;}
+.btn.cstm-warning{background: #fff8cc;color: #77501e;border-radius: 15px !important; font-family: nian-b; border:none;}
+.btn.cstm-danger{background: #ffdeee;color: #80253a;border-radius: 15px !important; font-family: nian-b; border:none;}
+.btn.cstm-sucsess{background: #2ddba1;color: #fff;border-radius: 15px !important; font-family: nian-b; border:none;}
+
+.btn.cstm-primary:hover{background: #b3e9ff;color: #2c5575;}
+.btn.cstm-primary:focus{background: #9de2ff;color: #224969;}
+
+.btn.cstm-warning:hover{background: #ffe8af;color: #6e4819;}
+.btn.cstm-warning:focus{background: #ffe092;color: #51340f;}
+
+.btn.cstm-danger:hover{background: #ffb9dc;color: #6e1e31;}
+.btn.cstm-danger:focus{background: #ff8cc5;color: #661b2c;}
+
+.btn.cstm-sucsess:hover{background: #23cb92;}
+.btn.cstm-sucsess:focus{background: #1aba84;}

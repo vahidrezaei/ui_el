@@ -1,24 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>slider
 
     </title>
+    <link rel="stylesheet" href="./fonts/damavand.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
     <!-- / A set of walkthrough screens in HTML/CSS/JS. A personal experiment with layering images, CSS3 transitions, & flexbox. -->
-<button class='open-walkthrough'>Start</button>
-<div class='walkthrough show reveal'>
-  <div class='walkthrough-pagination'>
+<button class='open-walkthrough'>نمایش امکانات</button>
+<div class='walkthrough' style="background: #704c9f !important; border-radius: 24px;
+border: 3px solid white;
+box-shadow: 0px 0px 11px black">
+  <div class='walkthrough-pagination d-none'>
     <a class='dot active'></a>
     <a class='dot'></a>
     <a class='dot'></a>
     <a class='dot'></a>
     <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
+    <a class='dot'></a>
   </div>
+
+  <style>
+    p{
+      text-align: justify;
+      font-size: 12px !important;
+      font-family: "sans";
+      font-weight: normal !important;
+    }
+    button{
+      font-family: "sans";
+    }
+    .walkthrough .walkthrough-footer button,.walkthrough .walkthrough-footer button:hover {
+    background: #4b0f79 !important;
+    height: auto;
+}
+  </style>
   <div class='walkthrough-body'>
     <ul class='screens animate'>
 
@@ -41,7 +76,9 @@
         <h3>
           رزرو آنلاین
         </h3>
-        <p>امکان رزرو وقت به صورت آنلاین، با انتخاب تاریخ، ساعت و خدمات.</p>
+        <p>
+          با قابلیت رزرو آنلاین نوبت، مشتریان شما می‌توانند با چند کلیک ساده زمان مورد نظر خود را رزرو کنند، و با نمایش نوبت‌ها در مانیتور سالن، نظم و هماهنگی بی‌نظیری در سالن ایجاد می‌شود. یک تجربه مدرن و بدون دردسر برای مشتریان و تیم شما!
+        </p>
       </li>
       <li class='screen'>
         <div class='media bars'>
@@ -52,7 +89,9 @@
         <h3>
          لیست خدمات
         </h3>
-        <p>نمایش انواع خدمات ارائه‌شده مانند آرایش مو، رنگ مو، میکاپ، مانیکور، پدیکور و سایر خدمات </p>
+        <p>
+          انواع خدمات ارائه‌شده در سالن زیبایی شما به شیوه‌ای جذاب و حرفه‌ای نمایش داده می‌شود. مشتریان شما می‌توانند تنها با یک کلیک، به تمامی خدمات از جمله آرایش مو، رنگ مو، میکاپ، مانیکور، پدیکور و بسیاری خدمات دیگر دسترسی پیدا کنند!
+        </p>
       </li>
       <li class='screen'>
         <div class='media bars'>
@@ -63,7 +102,9 @@
         <h3>
           گالری تصاویر
         </h3>
-        <p>نمایش انواع خدمات ارائه‌شده مانند آرایش مو، رنگ مو، میکاپ، مانیکور، پدیکور و سایر خدمات </p>
+        <p>
+          با گالری تصاویر در وب‌سایت سالن زیبایی، مشتریان می‌توانند نمونه‌کارهای شما را از نزدیک ببینند و با کیفیت خدمات شما آشنا شوند. گالری تصاویر، ویترینی جذاب و حرفه‌ای است که زیبایی و مهارت تیم شما را به نمایش می‌گذارد. 
+        </p>
       </li>
       <li class='screen'>
         <div class='media files'>
@@ -75,7 +116,7 @@
         <h3>
           وبلاگ و مقالات آموزشی
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+          <p style="text-align: justify;">با امکان ثبت <strong>مقالات آموزشی</strong> در نرم‌افزار ما، مشتریان شما می‌توانند به راحتی به جدیدترین و کاربردی‌ترین مقالات درباره مراقبت از پوست، مو و زیبایی دسترسی پیدا کنند. این بخش به سالن شما امکان می‌دهد تا نه‌تنها خدمات ارائه کند، بلکه به منبعی معتبر برای آموزش و اطلاعات زیبایی نیز تبدیل شود.</p>
       </li>
       <li class='screen'>
         <div class='media comm'>
@@ -85,7 +126,9 @@
         <h3>
           پیشنهادات ویژه
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <p>
+          با نمایش پیشنهادات ویژه در وب‌سایت، مشتریان شما می‌توانند از بهترین تخفیف‌ها و پیشنهادات اختصاصی بهره‌مند شوند! این بخش، به آن‌ها اجازه می‌دهد تا خدمات متنوع و باکیفیت سالن شما را با قیمتی مناسب تجربه کنند.
+        </p>
       </li>
       <li class='screen'>
         <div class='media books'>
@@ -98,7 +141,7 @@
         <h3>
           تماس با ما
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <p>با فرم تماس با ما، مشتریان شما می‌توانند به‌راحتی و با چند کلیک، سوالات، نظرات و درخواست‌های خود را مستقیماً به تیم شما ارسال کنند. این فرم، راهی سریع و آسان برای ارتباط مشتریان با سالن زیبایی شماست و به شما کمک می‌کند تا همیشه در دسترس و پاسخگو باشید.</p>
       </li>
       <li class='screen'>
         <div class='media books'>
@@ -109,7 +152,9 @@
         <h3>
          پروفایل اعضای تیم
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <p>
+          در بخش پروفایل اعضای تیم، با تخصص و مهارت هر یک از کارشناسان زیبایی ما آشنا شوید! مشتریان شما می‌توانند از نزدیک با آرایشگران، میکاپ‌آرتیست‌ها و متخصصین ماهر سالن شما آشنا شوند و از حرفه‌ای بودن خدماتی که دریافت می‌کنند، اطمینان حاصل کنند.
+        </p>
       </li>
       <li class='screen'>
         <div class='media books'>
@@ -121,7 +166,9 @@
         <h3>
           لینک‌های شبکه‌های اجتماعی
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <p>
+          در بخش شبکه‌های اجتماعی وب‌سایت ما، به راحتی به صفحه‌های رسمی سالن زیبایی خود دسترسی پیدا کنید و با جدیدترین ترندها، خدمات، و تخفیف‌های ویژه همراه باشید! با فالو کردن ما، هیچ خبری از دنیای زیبایی را از دست نخواهید داد.
+        </p>
       </li>
       <li class='screen'>
         <div class='media files'>
@@ -133,7 +180,9 @@
         <h3>
           سوالات متداول
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <p>
+          در بخش سوالات متداول، تمامی پرسش‌هایی که ممکن است در ذهن مشتریان درباره خدمات، فرآیندها و امکانات سالن زیبایی شما ایجاد شود، به‌طور کامل و شفاف پاسخ داده شده است. این قسمت، به مشتریان کمک می‌کند تا به‌سرعت اطلاعات مورد نیاز خود را پیدا کنند و با اطمینان بیشتری از خدمات شما استفاده کنند.
+        </p>
       </li>
       <li class='screen'>
         <div class='media books'>
@@ -145,7 +194,9 @@
         <h3>
          مدیریت مشتریان
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <p>
+          با قابلیت مدیریت مشتریان، سالن زیبایی شما می‌تواند تجربه‌ای متمایز به مشتریان خود ارائه دهد! با دسترسی به اطلاعات و سوابق هر مشتری، ارتباطی حرفه‌ای و دقیق‌تر برقرار کنید و سطح رضایت مشتریانتان را به اوج برسانید.
+        </p>
       </li>
       <li class='screen'>
         <div class='media files'>
@@ -157,7 +208,9 @@
         <h3>
          پیگیری تاریخچه خدمات
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <p>
+          با قابلیت پیگیری خدمات به مشتریان، سالن زیبایی شما همیشه یک قدم جلوتر از انتظارات خواهد بود! پیگیری دقیق و هوشمندانه، به شما این امکان را می‌دهد که پس از ارائه خدمات، با مشتریان خود در ارتباط باشید و تجربه‌ای ماندگار برایشان رقم بزنید.
+        </p>
       </li>
       <li class='screen'>
         <div class='media files'>
@@ -169,7 +222,9 @@
         <h3>
           سیستم بازخورد مشتریان
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <p>
+          با سیستم بازخورد مشتریان، سالن زیبایی شما می‌تواند به آسانی نظرات و پیشنهادات مشتریان را جمع‌آوری کند. این سیستم به شما کمک می‌کند تا از انتظارات و نیازهای مشتریان مطلع شوید، نقاط قوت خود را تقویت کنید و با بهبود بخشیدن به خدمات، رضایت مشتریان خود را به حداکثر برسانید.
+        </p>
       </li>
       <li class='screen'>
         <div class='media files'>
@@ -180,7 +235,9 @@
         <h3>
           مدیریت پرداخت‌ها و صورتحساب‌ها
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <p>
+          با قابلیت مدیریت پرداخت‌ها و صورتحساب‌ها، مدیران سالن زیبایی می‌توانند نظارت کامل و دقیقی بر تراکنش‌های مالی داشته باشند. این ابزار به شما کمک می‌کند تا از وضعیت درآمد، هزینه‌ها و سودآوری به‌صورت لحظه‌ای آگاه باشید و بهبود عملکرد مالی سالن را با اطلاعات دقیق‌تر و سازمان‌یافته‌تر امکان‌پذیر کنید.
+        </p>
       </li>
       <li class='screen'>
         <div class='media bars'>
@@ -191,7 +248,9 @@
         <h3>
           برنامه‌های وفاداری و تخفیف‌ها
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <p>
+          با برنامه وفاداری مشتریان، سالن زیبایی شما به مشتریان عزیز خود پاداش‌های ویژه‌ای برای هر بار مراجعه می‌دهد! این برنامه به شما کمک می‌کند تا با ارائه تخفیف‌ها، امتیازها و خدمات خاص، از مشتریان وفادارتان قدردانی کنید و آن‌ها را به همراهی همیشگی تشویق کنید.
+        </p>
       </li>
       <li class='screen'>
         <div class='media files'>
@@ -202,9 +261,11 @@
         <h3>
           ارسال پیامک و ایمیل
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <p>
+          با قابلیت ارسال پیامک و ایمیل، سالن زیبایی شما همیشه می‌تواند در ارتباط نزدیک با مشتریان باشد! یادآوری نوبت‌ها، اطلاع‌رسانی تخفیف‌ها و پیشنهادات ویژه، و پیگیری رضایت مشتریان همگی از طریق پیامک و ایمیل انجام می‌شود و تجربه‌ای حرفه‌ای و به‌یادماندنی برای مشتریانتان به ارمغان می‌آورد.
+        </p>
       </li>
-      <li class='screen'>
+      <!-- <li class='screen'>
         <div class='media bars'>
           <img class='icon' src='images/17-1.png'>
           <img class='icon' src='images/17-2.png'>
@@ -214,8 +275,10 @@
         <h3>
           گزارش‌گیری و تحلیل داده‌ها
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-      </li>
+        <p>
+
+        </p>
+      </li> -->
       <li class='screen'>
         <div class='media bars'>
           <img class='icon' src='images/18-1.png'>
@@ -226,9 +289,11 @@
         <h3>
           یکپارچگی با شبکه‌های اجتماعی
         </h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+        <p>
+          با قابلیت یکپارچگی با شبکه‌های اجتماعی، سالن زیبایی شما می‌تواند به آسانی با شبکه های ایتا و بله  همگام شود. این امکان به شما کمک می‌کند تا خدمات و پیشنهادات خود را به سرعت با مخاطبان بیشتری به اشتراک بگذارید، تعامل با مشتریان را افزایش دهید و ارتباطی پویا و جذاب ایجاد کنید.
+        </p>
       </li>
-      <li class='screen'>
+      <!-- <li class='screen'>
         <div class='media bars'>
           <img class='icon' src='images/19-1.png'>
           <img class='icon' src='images/19-2.png'>
@@ -239,22 +304,38 @@
           مدیریت کمپین‌های بازاریابی
         </h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-      </li>
+      </li> -->
 
     </ul>
     <button class='prev-screen'>
-      <i class='icon-angle-left'></i>
+      <!-- <i class='icon-angle-left'></i> -->
+      <i class="bi bi-caret-right-fill"></i>
     </button>
     <button class='next-screen'>
-      <i class='icon-angle-right'></i>
+      <!-- <i class='icon-angle-right'></i> -->
+      <i class="bi bi-caret-left-fill"></i>
     </button>
   </div>
   <div class='walkthrough-footer'>
-    <button class='button next-screen'>Next</button>
-    <button class='button finish close' disabled='true'>Finish</button>
+    <button class='button next-screen f-sans'>بعدی</button>
+    <button class='button finish close f-sans' disabled='true'>اتمام</button>
   </div>
 </div>
-
+    <hr>
+    <div class='walkthrough2' style="background: #704c9f !important; border-radius: 24px;
+border: 3px solid white;
+box-shadow: 0px 0px 11px black">
+      <div class="d-flex" style="  justify-content: center;flex-direction: column">
+        <div>
+          <p style="text-align: center">
+            برای اطلاعات بیشتر با ما تماس بگیرید...
+          </p>
+        </div>
+        <a href="https://wa.me/+989103515107?text=makeup-app" style="text-align: center">
+        <img src="./images/whatsapp.svg" width="40" alt="">
+        </a>
+      </div>
+    </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="./app.js"></script>

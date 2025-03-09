@@ -16,7 +16,8 @@
 <body>
 
 <?php require "../fun/helper.php"; ?>
-<?php $list = JsonToObject(file_get_contents("http://localhost/frontend/prui/ui_el/database/api-faker-fa.txt")); ?>
+<?php $list = JsonToObject(file_get_contents(__DIR__."/../api-faker-fa.txt")); ?>
+
 
 <div class="container maxWidth450 p-0">
 

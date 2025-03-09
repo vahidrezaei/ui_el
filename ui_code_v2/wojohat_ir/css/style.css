@@ -1,0 +1,125 @@
+@import "font.css";
+@import "nav.css";
+@import "index.css";
+@import "forms.css";
+@import "login.css";
+@import "register.css";
+@import "tasks.css";
+@import "request.css";
+@import "basket.css";
+@import "../libs/swiper/swiper-bundle.min.css";
+
+.container .card-cstm {
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.badge-warning {
+    background: #fff8cc;
+    color: #77501e;
+    line-height: 1em;
+}
+
+.badge-danger {
+    background: #ffdeee;
+    color: #9c1d5b;
+    line-height: 1em;
+}
+
+
+@media screen and (max-width: 1400px) {
+}
+
+@media screen and (max-width: 1199px) {
+}
+
+@media screen and (max-width: 991px) {
+    .container {
+        min-width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 575px) {
+
+    nav.navbar .modalSide {
+        width: 80vw;
+    }
+
+    nav.navbar .dropdown .modalSide {
+        transform: translate(80vw, 0);
+    }
+
+    .display-mob-none {
+        display: none;
+    }
+
+    nav.navbar .container {
+        /*margin: 0 !important;*/
+    }
+
+    nav.navbar .container-fluid .navbar-toggler {
+        border: none;
+    }
+
+    nav.navbar .container-fluid .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+
+    nav.navbar .container-fluid ul.navbar-nav {
+        padding: 0;
+        width: 100%;
+    }
+
+    nav.navbar .container-fluid .offcanvas-body {
+        padding-top: 0px;
+    }
+
+    nav.navbar .container-fluid ul.navbar-nav li a {
+        padding-right: 10px;
+        padding-left: 10px;;
+    }
+
+    nav.navbar .modalSide {
+        width: 77%;
+    }
+
+    .container .khadamat-links .khadamat-link {
+        font-size: 15px;
+    }
+
+    .container .khadamat-links .khadamat-link .icon-link {
+        height: 70px;
+        background-size: 40px !important;
+    }
+
+    .container .khadamat-links .khadamat-link:not(.link1, .link4) {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+
+    .container .khadamat-links .khadamat-link:first-child {
+        padding-left: 5px;
+    }
+
+    .container .khadamat-links .khadamat-link:last-child {
+        padding-right: 5px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+    .menu-bottom .navbar-brand.home {
+        margin-right: -31px;
+        margin-left: -31px;
+    }
+}
+
+@media screen and (max-width: 322px) {
+    .menu-bottom .navbar-brand {
+        min-width: 55px;
+    }
+}

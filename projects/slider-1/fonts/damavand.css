@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "damavand";
+    src: url('./Damavand ExtraBold.eot');
+    src: url('./Damavand ExtraBold.eot') format('embedded-opentype'),
+    url('./Damavand ExtraBold.woff2') format('woff2'),
+    url('./Damavand ExtraBold.woff') format('woff'),
+    url('./Damavand ExtraBold.ttf') format('truetype');
+}
+
+.font-damavand {
+    font-family: 'damavand';
+}
+
+.damavand-xx {
+    font-size: xx-large;
+}
+
+
+@font-face {
+    font-family: "sans";
+    src: url('./Iransans.ttf');
+}
+
+.f-sans{
+     font-family: "sans";
+}

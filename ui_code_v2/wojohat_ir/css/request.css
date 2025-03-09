@@ -1,0 +1,23 @@
+.container .tab-request{
+    background: #faefb0;
+    border:none;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.container .tab-request .nav-item .nav-link{
+    color: #77501e;
+    font-family: nian-b;
+}
+
+.container .tab-request .nav-item .nav-link.active{
+    border-color: #faefb0;
+    border-radius: 15px;
+    color: #585858;
+}
+
+.container .tab-request .nav-item .nav-link:hover{
+    background: #fff8cf;
+    border-color: #faefb0;
+    border-radius: 15px;
+}

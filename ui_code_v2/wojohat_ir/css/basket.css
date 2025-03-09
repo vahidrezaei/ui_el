@@ -1,0 +1,10 @@
+.container .basket .basket-item .details .price{
+    margin: 0 5px;
+    padding: 0 3px;
+}
+.container .basket .basket-item .details{
+    margin-top: 13px;
+    color: rgba(0,0,0,0.5);
+}
+.container .basket .basket-item .details .price:before{content: '/';}
+.container .basket .basket-item .details .price:after{content: '/';}

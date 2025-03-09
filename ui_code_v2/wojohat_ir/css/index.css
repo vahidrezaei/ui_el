@@ -1,0 +1,229 @@
+body {
+    background: #f8f7fc;
+    font-size: 18px;
+    font-family: nian-r;
+    word-spacing: 2px;
+    margin-bottom: 130px;
+}
+
+.border10 {
+    border-radius: 10px !important;
+}
+
+.border15 {
+    border-radius: 15px !important;
+}
+
+.border20 {
+    border-radius: 20px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: nian-b;
+}
+
+.containerWidth {
+    max-width: 991px;
+}
+
+.maxWidth991 {
+    max-width: 991px;
+}
+
+.maxWidth767 {
+    max-width: 767px;
+}
+
+.maxWidth575 {
+    max-width: 575px;
+}
+
+.maxWidth400 {
+    max-width: 400px;
+}
+
+.runfx .runLfx {
+    position: relative;
+    right: 0 !important;
+    transition: .3s;
+}
+
+.runfx:hover .runLfx {
+    right: 5px !important;
+}
+
+
+.container .profile .btn {
+    border-radius: 8px;
+}
+
+
+.container .profile {
+    background: #fff;
+    border-radius: 15px;
+    padding: 13px;
+}
+
+.container .card-price {
+    background: #e2f0fb;
+    color: #345f80;
+    margin-top: 24px;
+    border-radius: 15px;
+    padding: 13px;
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: 0.15s;
+}
+
+.container .card-price:hover {
+    background: #d7e8f5;
+    color: #274c69;
+}
+
+.container .card-price .price {
+    background: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-family: nian-b;
+    font-size: 25px;
+    line-height: 1em;
+}
+
+
+.container .khadamat .kh-progress {
+    background: #f6edb4;
+    color: #6b481a;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 24px;
+    margin-right: 12px;
+    margin-left: 12px;
+    transition: 0.15s;
+}
+
+.container .khadamat .kh-progress:hover {
+    background: #ece19c;
+    color: #5b3c13;
+}
+
+.container .khadamat .kh-progress span {
+    background: #fff;
+    color: #6b481a;
+    display: inline-block;
+    padding: 5px 17px;
+    border-radius: 15px;
+    font-family: nian-b;
+    font-size: 25px;
+    line-height: 1em;
+    float: left;
+}
+
+.container .khadamat .kh-progress.done {
+    background: #e2f0f0;
+    color: #1c7758;
+    transition: 0.15s;
+}
+
+.container .khadamat .kh-progress.done:hover {
+    background: #d2eaea;
+    color: #16694d;
+}
+
+.container .khadamat .kh-progress.done span {
+    color: #1c7758;
+}
+
+
+.container .ziyarat {
+    background: #c5c7f2 url("../images/img/karbala.png") no-repeat center left/contain;
+    min-height: 140px;
+    margin-top: 24px;
+    border-radius: 15px;
+    color: #43446a;
+    text-decoration: none;
+    font-family: nian-b;
+    transition: 0.15s;
+}
+
+.container .ziyarat:hover {
+    background-color: #cfd1f8;
+}
+
+.container .khadamat-links {
+    margin-top: 24px;
+}
+
+.container .khadamat-links .khadamat-link a {
+    text-decoration: none;
+    color: #707070;
+    text-align: center;
+}
+
+.container .khadamat-links .khadamat-link .txt {
+    display: block;
+}
+
+.container .khadamat-links .khadamat-link.link1 .icon-link {
+    background: #e2f0fb url("../images/img/wojohat-s.png") no-repeat center center/60px;
+}
+
+.container .khadamat-links .khadamat-link.link2 .icon-link {
+    background: #f6edb4 url("../images/img/ebadat.png") no-repeat center center/60px;
+}
+
+.container .khadamat-links .khadamat-link.link3 .icon-link {
+    background: #e2f0f0 url("../images/img/Aghighe.png") no-repeat center center/60px;
+}
+
+.container .khadamat-links .khadamat-link.link4 .icon-link {
+    background: #ffdeee url("../images/img/vasiyat.png") no-repeat center center/60px;
+}
+
+.container .khadamat-links .khadamat-link .icon-link {
+    border-radius: 15px;
+    display: inline-block;
+    min-width: 100%;
+    height: 140px;
+}
+
+.container .khadamat-links .khadamat-link.link1 .icon-link,
+.container .khadamat-links .khadamat-link.link2 .icon-link,
+.container .khadamat-links .khadamat-link.link3 .icon-link,
+.container .khadamat-links .khadamat-link.link4 .icon-link {
+    transition: 0.15s
+}
+
+.container .khadamat-links .khadamat-link.link1:hover .icon-link {
+    background-color: #caddec;
+    transform: scale(0.95);
+    box-shadow: 0 15px 25px rgba(70, 150, 217, 0.15);
+}
+
+.container .khadamat-links .khadamat-link.link2:hover .icon-link {
+    background-color: #e5da9a;
+    transform: scale(0.95);
+    box-shadow: 0 15px 25px rgba(84, 56, 20, 0.15);
+}
+
+.container .khadamat-links .khadamat-link.link3:hover .icon-link {
+    background-color: #cbe5e5;
+    transform: scale(0.95);
+    box-shadow: 0 15px 25px rgba(11, 96, 63, 0.15);
+}
+
+.container .khadamat-links .khadamat-link.link4:hover .icon-link {
+    background-color: #f3c8dd;
+    transform: scale(0.95);
+    box-shadow: 0 15px 25px rgba(156, 29, 91, 0.15);
+}
+
+
+
+
+
+
+
+
+
+

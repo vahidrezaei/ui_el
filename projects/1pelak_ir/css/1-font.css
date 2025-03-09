@@ -7,3 +7,12 @@
     font-family: nian-b;
     src: url(../fonts/Nian-Bold.ttf);
 }
+@font-face {
+    font-family: sans-r;
+    src: url(../fonts/Iransans.ttf);
+}
+
+@font-face {
+    font-family: sans-b;
+    src: url(../fonts/Iransans.ttf);
+}

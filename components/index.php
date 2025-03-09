@@ -38,6 +38,10 @@
                         <h5>لیست خدمات</h5>
                         <span>لیست خدمات با عنوان و اصلی و عنوان خدمات با آیکون</span>
                     </a>
+                    <a href="./components/khadamat_02.php" class="list-group-item list-group-item-action">
+                        <h5>لیست خدمات02</h5>
+                        <span>لیست خدمات با عنوان و اصلی و عنوان خدمات با آیکون</span>
+                    </a>
                     <a href="./components/post-list-thumbnail.php" class="list-group-item list-group-item-action">
                         <h5>لیست پست ها</h5>
                         <span>لیست پستها بصورت کشیده و با عکس بند انگشتی</span>
@@ -49,6 +53,10 @@
                     <a href="./components/post-list-thumbnail-n3.php" class="list-group-item list-group-item-action">
                         <h5>لیست پست ها شماره 3</h5>
                         <span>لیست پستها بصورت کشیده و با عکس بند انگشتی دایره ای و قیمت ...</span>
+                    </a>
+                    <a href="./components/title-with-right-border.php" class="list-group-item list-group-item-action">
+                        <h5>عنوان</h5>
+                        <span>عنوان با خط کناری</span>
                     </a>
                 </div>
             </div>
