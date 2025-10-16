@@ -43,12 +43,17 @@
         }
 
         path {
-            transition: all 0.3s ease;
+            transition: all 0.5s ease;
             cursor: pointer;
         }
 
         path:hover {
             opacity: 0.8;
+        }
+
+        /* انیمیشن روان برای زوم */
+        svg {
+            transition: transform 0.5s ease-in-out;
         }
 
         #state-name {
@@ -90,6 +95,41 @@
         path:hover+.province-label {
             transform: scale(1.1);
         }
+
+        /* استایل برای زوم */
+        .bar-container {
+            cursor: pointer;
+        }
+
+        .bar-container:hover {
+            background-color: rgba(0, 0, 0, 0.05);
+        }
+
+        #mapSvg {
+            transition: all 0.5s ease;
+        }
+
+        .reset-zoom-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1000;
+            display: none;
+        }
+
+        .province-zoomed {
+            opacity: 1 !important;
+        }
+
+        .province-dimmed {
+            opacity: 0.2 !important;
+        }
+
+        .chart-bar-selected {
+            background-color: rgba(13, 110, 253, 0.1);
+            border-right: 4px solid #0d6efd;
+            padding-right: 10px;
+        }
     </style>
 </head>
 
@@ -97,8 +137,11 @@
     <div class="container-fluid">
         <div class="row">
 
-            <div class="col-6">
-                <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+            <div class="col-6 position-relative">
+                <button id="resetZoomBtn" class="reset-zoom-btn btn btn-primary btn-sm">
+                    <i class="bi bi-zoom-out"></i> بازگشت به نمای کلی
+                </button>
+                <svg id="mapSvg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
                     y="0px" width="100%" viewBox="150 0 650 600" enable-background="new 70 0 731.89 575.28"
                     xml:space="preserve">
                     <metadata>
@@ -2065,6 +2108,13 @@ l0.51-1.25c0.67,0.38,1.26,0.89,1.8,1.51C395.44,88.51,395.78,89.29,395.78,90.06z"
             barContainer.appendChild(nameDiv);
             barContainer.appendChild(progressContainer);
 
+            // اضافه کردن رویداد کلیک برای زوم
+            barContainer.setAttribute('data-province-id', province.id);
+            barContainer.style.cursor = 'pointer';
+            barContainer.addEventListener('click', function() {
+                zoomToProvince(province.id);
+            });
+
             chartDiv.appendChild(barContainer);
         });
 
@@ -2160,6 +2210,97 @@ l0.51-1.25c0.67,0.38,1.26,0.89,1.8,1.51C395.44,88.51,395.78,89.29,395.78,90.06z"
                         hideName();
                     };
                 }
+            }
+        });
+
+        // توابع زوم
+        const mapSvg = document.getElementById('mapSvg');
+        const resetBtn = document.getElementById('resetZoomBtn');
+        const originalViewBox = '150 0 650 600';
+        let isZoomed = false;
+
+        function zoomToProvince(provinceId) {
+            const provinceElement = document.querySelector(`a#${provinceId}`);
+            if (!provinceElement) return;
+
+            const path = provinceElement.querySelector('path');
+            if (!path) return;
+
+            // گرفتن bbox استان
+            const bbox = path.getBBox();
+            
+            // محاسبه padding (20% از اندازه)
+            const padding = Math.max(bbox.width, bbox.height) * 0.3;
+            
+            // محاسبه viewBox جدید
+            const newX = bbox.x - padding;
+            const newY = bbox.y - padding;
+            const newWidth = bbox.width + (padding * 2);
+            const newHeight = bbox.height + (padding * 2);
+
+            // اعمال زوم
+            mapSvg.setAttribute('viewBox', `${newX} ${newY} ${newWidth} ${newHeight}`);
+
+            // کم‌رنگ کردن همه استان‌ها
+            document.querySelectorAll('#states a path').forEach(p => {
+                p.classList.add('province-dimmed');
+            });
+
+            // برجسته کردن استان انتخابی
+            path.classList.remove('province-dimmed');
+            path.classList.add('province-zoomed');
+
+            // هایلایت کردن نوار چارت مربوطه
+            document.querySelectorAll('.bar-container').forEach(bar => {
+                bar.classList.remove('chart-bar-selected');
+            });
+            const chartBar = document.querySelector(`.bar-container[data-province-id="${provinceId}"]`);
+            if (chartBar) {
+                chartBar.classList.add('chart-bar-selected');
+                // اسکرول به نوار چارت
+                chartBar.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            }
+
+            // نمایش دکمه بازگشت
+            resetBtn.style.display = 'block';
+            isZoomed = true;
+        }
+
+        function resetZoom() {
+            // بازگشت به viewBox اصلی
+            mapSvg.setAttribute('viewBox', originalViewBox);
+
+            // برداشتن کلاس‌ها
+            document.querySelectorAll('#states a path').forEach(p => {
+                p.classList.remove('province-dimmed', 'province-zoomed');
+            });
+
+            // برداشتن هایلایت از نوار چارت
+            document.querySelectorAll('.bar-container').forEach(bar => {
+                bar.classList.remove('chart-bar-selected');
+            });
+
+            // مخفی کردن دکمه
+            resetBtn.style.display = 'none';
+            isZoomed = false;
+        }
+
+        // رویداد کلیک برای دکمه بازگشت
+        resetBtn.addEventListener('click', resetZoom);
+
+        // اضافه کردن امکان کلیک روی استان‌ها در نقشه
+        provincesData.forEach(province => {
+            const provinceElement = document.querySelector(`a#${province.id}`);
+            if (provinceElement) {
+                provinceElement.style.cursor = 'pointer';
+                provinceElement.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    if (isZoomed) {
+                        resetZoom();
+                    } else {
+                        zoomToProvince(province.id);
+                    }
+                });
             }
         });
     </script>
