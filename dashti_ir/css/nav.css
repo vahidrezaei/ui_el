@@ -1,0 +1,18 @@
+nav.navbar{
+    background: transparent;
+    padding: 0;
+    transition: 0.3s;
+}
+.brandcstm,.desk-menu a{padding: 10px 20px;color: #000;}
+.brandcstm,.desk-menu a:hover{color: #008354;}
+
+.brandcstm.logo{background: url("../images/img/logo-menu.png") no-repeat  center center/35px; text-indent: -99999px; color:transparent;}
+
+.btn-menu{box-shadow: none; border: none;}
+.btn-menu:hover{background: rgba(0,0,0,0.03);}
+.btn-menu:focus{box-shadow: none;}
+
+.menu-mob ul li a{padding: 12px; border-radius: 12px;}
+.menu-mob ul li a:hover{background: #f7fbfa;  color: #008354 !important;}
+
+.menu-header{background: #e4eef5;padding-bottom: 30px;}

@@ -1,0 +1,17 @@
+.fm-srch{
+    position: relative;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.fm-srch .fm-in{
+    outline: 7px solid #fff;
+}
+
+.fm-srch .fm-in:focus{
+    box-shadow: 0 0 30px rgba(0, 98, 64, 0.2);
+}
+
+.fm-srch .fm-btn{
+    position: absolute; top:1px; left:16px; border: #fff;
+}

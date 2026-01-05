@@ -1,0 +1,17 @@
+.header.header-page{
+    height: 200px;
+    background-position: top;
+}
+
+.content-book.card{border-radius: 15px;border:0;padding:15px;box-shadow: 0 25px 25px #e6ecf2;}
+
+.content-book .title-p{color: #09c36e; font-family: nian-b; font-size: 22px;}
+
+.toltip-txt ul li{
+    border:none;
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.toltip-txt .toltip{font-family: nian-b;}
+.toltip-txt .txt-bg{background:#fff6cd; padding: 0 10px; border-radius: 10px;}

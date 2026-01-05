@@ -1,0 +1,54 @@
+@import "font.css";
+@import "nav.css";
+@import "index.css";
+@import "page.css";
+@import "forms.css";
+body{
+    background: #f0f4f9;
+    font-size: 18px;
+    font-family: nian-r;
+    word-spacing: 2px;
+}
+
+h1,h2,h3,h4,h5,h6{font-family: nian-b;}
+.border10{border-radius: 10px !important;}
+.border15{border-radius: 15px !important;}
+.border20{border-radius: 20px !important;}
+.mxW1080{max-width: 1080px;}
+.mxW991{max-width: 991px;}
+.mxW767{max-width: 767px;}
+.mxW575{max-width: 575px;}
+.runfx .runLfx{position: relative; right:0 !important; transition: .3s;}
+.runfx:hover .runLfx{right: 5px !important;}
+
+.d-mobile{display: none;}
+.d-desktop{display: block;}
+
+@media screen and (max-width:1400px) {}
+
+@media screen and (max-width:1199px) {.container{min-width: 100%;}}
+@media screen and (max-width:991px) {
+    .listBooks a{font-size: 15px}
+    .listBooks a h5{font-size: 15px}
+}
+@media screen and (max-width:767px) {}
+@media screen and (max-width:575px) {
+
+    .d-mobile{display: block;}
+    .d-desktop{display: none;}
+    .subject h5{padding-right: 35px;}
+    .i-category{;width: 60px;height: 60px; top:-18px;}
+    .category a.card{font-size: 12px;}
+
+    .listBooks .txt{margin-top: -10px;}
+    .listBooks a{font-size: 13px}
+    .listBooks a h5{font-size: 12px}
+
+    .toltip-txt ul li{font-size: 15px;}
+
+    .swiper-slide.listBooks a{font-size:10px}
+}
+@media screen and (max-width:360px) {
+    .toltip-txt{overflow: hidden;}
+    .toltip-txt ul li{font-size: 12px; text-wrap: nowrap;}
+}

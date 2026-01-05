@@ -1,0 +1,16 @@
+@font-face {
+    font-family: nian-r;
+    src: url(../fonts/Nian-Regular.ttf);
+}
+
+@font-face {
+    font-family: nian-b;
+    src: url(../fonts/Nian-Bold.ttf);
+}
+
+
+.footer{
+    height: 400px;
+    background: #e4eef5 url(../images/img/bg-books.png) repeat-x bottom/600px;
+    overflow: hidden;
+}

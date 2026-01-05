@@ -1,0 +1,77 @@
+.header{
+    height: 500px;
+    background: #e4eef5 url(../images/img/bg-books.png) repeat-x bottom/600px;
+    overflow: hidden;
+}
+.logo-main{background: url(../images/img/logo.png) no-repeat center center/200px;}
+.logo-menu{background-size: 200px; height: 80px; width: 100%; padding: 1px;}
+.logo-site{background-size: 300px; height: 120px; width: 100%; padding: 1px;}
+.logo-2{background-size: 200px;}
+
+.footer .p-foot,
+.header .p-head{font-family: nian-b; line-height: 1.8em;}
+.header-line{
+    height: 115px;
+    width: 100vw;
+    padding-top: 1px;
+    background: url(../images/img/line-header.svg) no-repeat bottom/cover ;
+}
+.footer{position: relative;}
+.footer-line{
+    height: 115px;
+    width: 100vw;
+    background: url(../images/img/line-footer.svg) no-repeat bottom/cover ;
+    position: absolute;
+    top: -5px;
+}
+.footer .line-arrow-left,
+.header .line-arrow-left{background: url(../images/img/line-arrow-left.png) no-repeat center/contain;width:100px;padding:5px 0;}
+.footer .line-arrow-right,
+.header .line-arrow-right{background: url(../images/img/line-arrow-right.png) no-repeat center/contain;width:100px;padding:5px 0;}
+
+.subject{position: relative;margin-bottom: 40px; margin-top: 40px;}
+.subject h5{background: url(../images/img/bg-subject.svg) no-repeat right center; padding-right: 50px;margin-right: 37px; margin-bottom: 0;}
+.i-category{background: url(../images/img/subject-category.svg) no-repeat center center/cover;width: 75px;height: 75px;display: inline-block;position: absolute;right:0; top:-25px;}
+
+.category{margin-bottom: 100px;}
+.category a.card{border:none;text-decoration: none; position: relative;border-radius: 20px;font-size: 16px;}
+.category a.card img{padding: 20%; border-radius: 20px;}
+.category a.card .txt{position: absolute; padding-top: 20px; margin-top: 100%; display: inline-block;width:100%;font-family: nian-b;}
+.category a.card{box-shadow: 0 25px 25px #e6ecf2;transition: 0.3s;}
+.category a.card:hover{background: #c4e5fd;}
+
+.listBooks .card{border-radius: 15px; transition: 0.3s}
+.listBooks a{text-decoration: none;}
+.listBooks .title-card{color: #27323d;}
+.listBooks .txt-card{color: #788795; margin-bottom: 10px;}
+.listBooks .visit-card{color: #09c36e; display: inline-flex; padding: 0 12px; border-radius: 15px; transition: 0.3s;}
+.listBooks .visit-card svg{
+    margin-right: 7px;
+}
+.listBooks .txt{margin-top: -20px;}
+
+.listBooks .card:hover{background: #c4e5fd;}
+.listBooks .card:hover .title-card{color: #1e608f;}
+.listBooks .card:hover .txt-card{color: #7191b0;}
+.listBooks .card:hover .visit-card{background: #e2f3ff; color: #7191b0;}
+
+.prefer-books{background: #fff;}
+
+.swiper-slide.listBooks a{font-size: 15px}
+.swiper-slide.listBooks a h5{font-size: 15px}
+
+.swiper.mySwiper .swiper-button-prev,
+.swiper.mySwiper .swiper-button-next{
+    color: rgba(0,0,0,0.5);
+    width: 50px;
+    height: 50px;
+    background: #fff;
+}
+
+.swiper.mySwiper .swiper-button-prev{right:0;}
+.swiper.mySwiper .swiper-button-next{left:0;}
+
+.swiper.mySwiper .swiper-button-prev:after,
+.swiper.mySwiper .swiper-button-next:after{
+    font-size: 20px;
+}
